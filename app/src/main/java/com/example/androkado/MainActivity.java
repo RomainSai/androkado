@@ -18,6 +18,8 @@ import android.widget.TextView;
 import android.widget.Toast;
 import android.widget.ToggleButton;
 
+import com.example.androkado.database.daos.BaseDAO;
+import com.example.androkado.database.daos.UtilisateurDAO;
 import com.example.androkado.entities.Article;
 import com.example.androkado.entities.Utilisateur;
 
@@ -63,6 +65,7 @@ public class MainActivity extends FragmentActivity implements BlankFragment.OnFr
                 MainActivity.this.startActivity(navigation);
             }
         });
+        BaseDAO<Utilisateur> daoUtilisateur = new UtilisateurDAO(this);
     }
 
     @Override

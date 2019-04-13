@@ -3,9 +3,11 @@ package com.example.androkado.entities;
 import android.os.Parcel;
 import android.os.Parcelable;
 
+import com.example.androkado.database.base.DbEntity;
+
 import java.io.Serializable;
 
-public class Utilisateur implements Serializable {
+public class Utilisateur extends DbEntity implements Serializable {
     private String nom;
     private String prenom;
 
