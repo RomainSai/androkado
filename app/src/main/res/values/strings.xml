@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">AndroKado</string>
+    <string name="pain_au_chocolat">Pain au chocolat</string>
+    <string name="une_vienoiserie_au_beurre_et_au_chocolat">Une vienoiserie au beurre et au chocolat</string>
+    <string name="achete">Acheté</string>
+    <string name="_1">1.0 €</string>
+    <string name="a_achete">A acheté</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="MY_USER_INTENT">myUser</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hello_blank_fragment2">Hello blank fragment 2</string>
+    <string name="title_activity_menu">MenuActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="switch_value">Trier par prix :</string>
+    <string name="prixDefaut">Prix par défaut :</string>
+</resources>

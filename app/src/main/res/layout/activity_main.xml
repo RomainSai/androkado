@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="184dp"
+        android:layout_height="26dp"
+        android:textAppearance="@android:style/TextAppearance.Material.Title"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.118"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.076" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="162dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="460dp"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.104"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintHorizontal_bias="0.165"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:layout_editor_absoluteY="152dp" />
+
+    <!--android:rating="4"-->
+    <RatingBar
+        android:id="@+id/ratingBar"
+        style="@android:style/Widget.Material.Light.RatingBar.Small"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:isIndicator="false"
+        android:numStars="5"
+        app:layout_constraintHorizontal_bias="0.83"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:layout_editor_absoluteY="112dp" />
+
+    <ToggleButton
+        android:id="@+id/toggleButton"
+        android:layout_width="149dp"
+        android:layout_height="65dp"
+        android:layout_marginRight="24dp"
+        android:layout_marginBottom="12dp"
+        android:checked="false"
+        android:text="@string/achete"
+        android:textAppearance="@style/TextAppearance.AppCompat.Button"
+        android:textOff="@string/a_achete"
+        android:textOn="@string/achete"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        style="@android:style/Widget.ImageButton"
+        android:layout_width="149dp"
+        android:layout_height="65dp"
+        android:layout_marginBottom="12dp"
+        android:onClick="onImageButtonClick"
+        app:layout_constraintBottom_toBottomOf="@id/toggleButton"
+        app:srcCompat="@drawable/internet_32"
+        tools:layout_editor_absoluteX="27dp" />
+
+    <android.support.v7.widget.ContentFrameLayout
+        android:id="@+id/fragment1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="344dp"
+        app:layout_constraintBottom_toTopOf="@id/imageButton"
+        app:layout_constraintTop_toBottomOf="@id/editText"
+        app:layout_constraintVertical_bias="1.0"
+        tools:layout_editor_absoluteX="176dp" />
+
+    <!--<fragment-->
+        <!--android:id="@+id/fragment1"-->
+        <!--android:name="com.example.androkado.BlankFragment"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginTop="8dp"-->
+        <!--android:layout_marginBottom="8dp"-->
+        <!--app:layout_constraintBottom_toTopOf="@id/imageButton"-->
+        <!--app:layout_constraintTop_toBottomOf="@id/textView2"-->
+        <!--tools:layout_editor_absoluteX="16dp" />-->
+
+
+
+</LinearLayout>
